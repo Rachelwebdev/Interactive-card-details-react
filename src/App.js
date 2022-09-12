@@ -1,5 +1,5 @@
-import logo from "./logo.svg";
 import "./App.css";
+
 import MainComponent from "./Components/mainComponent";
 import FrontDebitCardComponent from "./Components/frontDebitCardComponent";
 import BackDebitCardComponent from "./Components/backDebitCardComponent";
