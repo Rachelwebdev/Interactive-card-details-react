@@ -1,0 +1,8 @@
+.whole-container {
+  width: 375px;
+  height: 100%;
+}
+.upper-section {
+  background-color: purple;
+  height: 30%;
+}
