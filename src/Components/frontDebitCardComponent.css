@@ -1,0 +1,56 @@
+.mainCard {
+  width: 260px;
+  height: 180px;
+  position: absolute;
+  top: 23%;
+  left: 32%;
+  color: hsl(0, 0%, 100%);
+  background: linear-gradient(
+    to top right,
+    hsl(249, 99%, 64%) 25%,
+    hsl(278, 94%, 30%) 45%,
+    hsl(0, 100%, 66%) 95%
+  );
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.circles {
+  width: 20%;
+  height: 20%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.bigCircle {
+  width: 25px;
+  height: 25px;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 50%;
+  /* margin-bottom: 50px; */
+}
+
+.smallCircle {
+  width: 12px;
+  height: 12px;
+  border: 1px solid white;
+  border-radius: 50%;
+  margin-top: 6px;
+}
+
+.card-number {
+  font-size: 15px;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.name-and-date {
+  display: flex;
+  justify-content: space-between;
+  font-size: 10px;
+  letter-spacing: 1px;
+  color: hsl(270, 3%, 87%);
+  /* font-weight: 400; */
+}

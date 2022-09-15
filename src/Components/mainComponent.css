@@ -1,8 +1,71 @@
 .whole-container {
   width: 375px;
-  height: 100%;
+  height: 100vh;
+  margin: 0 auto;
 }
 .upper-section {
-  background-color: purple;
-  height: 30%;
+  background: linear-gradient(
+    to top right,
+    hsl(278, 68%, 11%),
+    hsl(278, 94%, 30%)
+  );
+  height: 40%;
+  width: 100%;
+}
+
+.lower-section {
+  margin-top: 130px;
+  padding: 0 20px;
+}
+
+.user-card-heading {
+  margin-bottom: 20px;
+}
+
+.card-desc-tags {
+  margin-bottom: 5px;
+  font-size: 11px;
+  color: hsl(278, 68%, 11%);
+  font-weight: 600;
+  letter-spacing: 1.5px;
+}
+
+.user-card-heading input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 2px solid hsl(270, 3%, 87%);
+}
+
+input::placeholder {
+  font-weight: bolder;
+  color: hsl(270, 3%, 87%);
+  font-size: 15px;
+}
+
+.user-card-date {
+  display: flex;
+}
+
+.card-input-month-year {
+  display: flex;
+}
+
+.card-date-input,
+.user-card-cvc {
+  width: 50%;
+}
+
+.date-input {
+  width: 45%;
+  margin-right: 10px;
+}
+
+.btn {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(278, 68%, 11%);
+  letter-spacing: 1.5px;
 }
