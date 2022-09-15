@@ -2,6 +2,7 @@
   width: 260px;
   height: 180px;
   position: absolute;
+  transform: translate(-35%, -15%);
   top: 23%;
   left: 32%;
   color: hsl(0, 0%, 100%);
