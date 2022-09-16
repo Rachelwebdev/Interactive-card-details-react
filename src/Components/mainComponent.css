@@ -2,11 +2,12 @@
   width: 375px;
   height: 100vh;
   margin: 0 auto;
+  position: relative;
 }
 .upper-section {
   background: linear-gradient(
     to top right,
-    hsl(278, 68%, 11%),
+    hsl(278, 68%, 11%) 60%,
     hsl(278, 94%, 30%)
   );
   height: 40%;
