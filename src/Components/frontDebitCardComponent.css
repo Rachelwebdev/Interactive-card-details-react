@@ -1,10 +1,11 @@
 .mainCard {
   width: 260px;
-  height: 180px;
+  height: 150px;
   position: absolute;
   transform: translate(-35%, -15%);
-  top: 23%;
-  left: 32%;
+  top: 27%;
+  left: 30%;
+  z-index: 1;
   color: hsl(0, 0%, 100%);
   background: linear-gradient(
     to top right,
