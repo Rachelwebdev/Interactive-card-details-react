@@ -1,7 +1,11 @@
-import React from "react";
+import { React } from "react";
 import "./MainComponent.css";
 
 const MainComponent = () => {
+  const handleChange = (event) => {
+    event.preventDefault();
+    const elements = event.target.value;
+  };
   return (
     <>
       <div className="whole-container">
@@ -10,10 +14,11 @@ const MainComponent = () => {
           <div className="user-card-heading">
             <p className="card-desc-tags">CARDHOLDER NAME</p>
             <input
+              onChange={handleChange}
               type="text"
               name="name"
               id=""
-              placeholder="e.g. Jane Appleseed"
+              placeholder="e.g Jane Appleseed"
             />
           </div>
 
